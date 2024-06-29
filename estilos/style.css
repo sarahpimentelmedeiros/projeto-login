@@ -45,3 +45,6 @@ section#login > div#forms {
     display: block;
     padding: 10px;
 }
+div#forms > h1 {
+    text-align: center;
+}
