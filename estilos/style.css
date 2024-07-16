@@ -48,3 +48,15 @@ section#login > div#forms {
 div#forms > h1 {
     text-align: center;
 }
+#button-entrar {
+    position: absolute;
+    top: 90%;
+    left: 71%;
+    cursor: pointer;
+}
+#button-cadastrar {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    cursor: pointer;
+}
