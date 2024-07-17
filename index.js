@@ -9,5 +9,8 @@ function logar(){
     }
 }
 function cadastrar(){
-    location.href = 'form-login.html';
+    location.href = 'form-cadastro.html';
+}
+function voltar(){
+    location.href = 'index.html';
 }
