@@ -48,15 +48,30 @@ section#login > div#forms {
 div#forms > h1 {
     text-align: center;
 }
-#button-entrar {
-    position: absolute;
-    top: 90%;
-    left: 71%;
+.button-entrar {
+    background-image: linear-gradient(to top, rgb(139, 77, 77),  rgb(69, 3, 3));
+    color: white;
+    width: 100%;
+    padding: 2px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.button-entrar:hover{
+    background-image: linear-gradient(to top, rgb(84, 3, 3),  rgb(69, 3, 3));
 }
 #button-cadastrar {
-    position: absolute;
-    top: 90%;
-    left: 45%;
+    background-image: linear-gradient(to top, rgb(139, 77, 77),  rgb(69, 3, 3));
+    color: white;
+    width: 100%;
+    padding: 2px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#button-cadastrar:hover{
+    background-image: linear-gradient(to top, rgb(84, 3, 3),  rgb(69, 3, 3));
+}
+#button-form{
+    width: 100%;
 }
